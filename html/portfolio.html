@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html ng-app="portfolio">
+<head>
+	<title>Colin Walbridge Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		
+		<!-- HEADER -->
+		<div class="header">
+			
+			<!-- NAVBAR -->	
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+
+					<!-- COLLAPSE BUTTON -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+						<!-- HOME LINK -->
+						<a class="navbar-brand" href="../index.html">COLIN WALBRIDGE</a>
+					</div>
+					
+					<!-- NAV LINKS -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="../html/about.html">ABOUT<span class="sr-only">(current)</span></a></li>	
+							<li><a href="../html/portfolio.html">PORTFOLIO</a></li>	
+							<li><a href="../html/resume.html">RESUME</a></li>
+						</ul>
+					</div>			
+				</div>
+			</nav>
+		</div>
+
+		<!-- CONTENT -->
+		<section>
+			<h1>Portfolio</h1>
+			<my-project></my-project>
+			<section id="grid">
+
+
+				<!-- <div class="grid-item" id="one">
+					<p class="grid-heading">Project One</p>
+					<img src="https://images.unsplash.com/photo-1475439242971-afb6fcc1ba22?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=c221a5935a8ea54887ae7178aeff7725/350x350">
+					<p class="grid-description">This is my first project!</p>
+				</div>
+				
+				<div class="grid-item" id="two">
+					<p class="grid-heading">Project Two</p>
+					<img src="https://images.unsplash.com/photo-1473800447596-01729482b8eb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=40eba4c15ec393c84db9c76380d26869">
+					<p class="grid-description">This is my second project!</p>
+				</div>
+
+				<div class="grid-item" id="three">
+					<p class="grid-heading">Project Three</p>
+					<img src="https://images.unsplash.com/photo-1467703834117-04386e3dadd8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=ed3a925e8a253265c74c2b185d9ac7d6">
+					<p class="grid-description">This is my third project!</p>
+				</div>
+
+				<div class="grid-item" id="four">
+					<p class="grid-heading">Project Four</p>
+					<img src="https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=69b4e9aa5ba392b92c28eff906787604">
+					<p class="grid-description">This is my fourth project!</p>
+				</div>
+
+
+				<div class="grid-item" id="five">
+					<p class="grid-heading">Project Five</p>
+					<img src="https://images.unsplash.com/photo-1476052492661-714447484e01?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=a4375015dbf508b3ea6748ee848ebb08">
+					<p class="grid-description">This is my fifth project!</p>
+				</div>
+
+				<div class="grid-item" id="six">
+					<p class="grid-heading">Project Six</p>
+					<img src="https://images.unsplash.com/photo-1475598322381-f1b499717dda?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=7ace99394369686e3597208395e6240c">
+					<p class="grid-description">This is my sixth project!</p>
+				</div>
+
+				<div class="grid-item" id="seven">
+					<p class="grid-heading">Project Seven</p>
+					<img src="https://images.unsplash.com/photo-1468224970805-92d72c619545?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=b712cc36433b1055d83d7ca700e87474">
+					<p class="grid-description">This is my seventh project!</p>
+				</div>
+
+				<div class="grid-item" id="eight">
+					<p class="grid-heading">Project Eight</p>
+					<img src="https://images.unsplash.com/photo-1474635183442-1d29a9be83d3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=2c15607e1cb575f7e6953ba6bfabfddb">
+					<p class="grid-description">This is my eighth project!</p>
+				</div>
+
+				<div class="grid-item" id="nine">
+					<p class="grid-heading">Project Nine</p>
+					<img src="https://images.unsplash.com/photo-1462663608395-404cb6246eaf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=47d882ec1d9e97c67aeafe03e8780dc0">
+					<p class="grid-description">This is my ninth project!</p>
+				</div> -->
+
+				
+			</section>
+
+		</section>
+
+
+	</div>
+	<script src="../lib/angular.min.js"></script>
+	<script src="../js/jquery-3.1.1.min.js" type="text/javascript"></script>
+	<script src="../js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../app.js" type="text/javascript"></script>
+</body>
+</html>

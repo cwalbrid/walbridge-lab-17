@@ -1,0 +1,117 @@
+p {
+	margin:0px;
+	padding:0px;
+	font-family: Helvetica;
+	font-size:16px;
+	color:white;
+	font-family: Helvetica, sans-serif;
+}
+
+body{
+	background-color:#f2f2f2;
+}
+
+img {
+	height: 100%;
+	width:100%;
+}
+
+h1{
+	font-size: 32pt;
+}
+
+@font-face {
+	font-family: 'roboto condensed';
+	src: url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+}
+
+#grid {
+	width: 1400px;
+	height: 1400px;
+	position: absolute;
+	left: 4%;
+}
+
+.parallax{
+	float:left;
+	height:100px;
+	width:100px;
+	background-color: green;
+}
+
+.grid-item{
+  background-color: gray;
+  display: inline-block;
+  height: 350px;
+  width:350px;
+  position: relative;	 
+  float:left;
+  margin:20px;
+
+}
+
+.grid-heading{
+	position:absolute;
+	z-index: 4;
+	top:5px;
+	left:7px;
+	text-transform: capitalize;
+	letter-spacing: .1em;
+	background-color: rgba(140, 140, 140, .5)	
+}
+
+.grid-item:hover .grid-description {
+	visibility: visible;
+}
+
+.grid-description{
+	position: absolute;
+	z-index: 3;
+	bottom:10px;
+	right:12px;
+	background-color: rgba(140, 140, 140, .5);
+	visibility: hidden;
+}
+
+@media (max-width: 900px) {
+	#grid {
+		width: 830px;
+		height: 830px;
+	}
+	.grid-item {
+		height:300px;
+		width: 300px;
+	}
+	h1{
+		position: relative;
+		left: 50px;
+		font-size: 26pt;
+	}
+}
+
+@media (max-width: 430px) {
+	#grid {
+		width: 310px;
+		height: 310px;
+		display: block;
+		position: relative;
+	}
+	.grid-item {
+		width: 275px;
+		height: 275px;
+		margin-left: 25px;
+
+	}
+	h1{
+		position: relative;
+		float: left;
+		left:15px;
+		font-size: 20pt;
+		display: block;
+		margin-top:0px;
+		margin-bottom: 0px;
+
+	}
+}
+
+ 
