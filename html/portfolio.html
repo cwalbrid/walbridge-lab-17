@@ -44,10 +44,11 @@
 		<!-- CONTENT -->
 		<section>
 			<h1>Portfolio</h1>
-			<my-project></my-project>
-			<section id="grid">
+			<section id="grid" ng-controller="projectInfoCtrl">
 
-
+				<my-project ng-repeat="project in projectInfo">
+				</my-project>
+				
 				<!-- <div class="grid-item" id="one">
 					<p class="grid-heading">Project One</p>
 					<img src="https://images.unsplash.com/photo-1475439242971-afb6fcc1ba22?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=c221a5935a8ea54887ae7178aeff7725/350x350">
